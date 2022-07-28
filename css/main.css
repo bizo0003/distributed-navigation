@@ -1,13 +1,13 @@
 html {
-    box-sizing: border-box;
-    background-color: #fff;
-    font-family: sans-serif;
-    line-height: 1.5;
-  }
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -51,4 +51,8 @@ nav a {
   margin-left: .5rem;
   margin-right: .5rem;
   padding-left: 1rem;
+}
+
+a:hover {
+  color: #fff;
 }
